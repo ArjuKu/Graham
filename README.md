@@ -24,6 +24,8 @@ If you're a finance professional or a programmer with suggestions on model corre
 - **Ownership Data** — Institutional holders and insider transaction details
 - **Weighted Verdict** — Buy/Hold/Sell recommendation combining DCF, P/E, sentiment, and analyst targets
 
+<img width="1137" height="494" alt="Image" src="https://github.com/user-attachments/assets/a68d57a9-c9b3-4551-9f29-85607687ec59" />
+
 ## Tech Stack
 
 | Component | Tool |
