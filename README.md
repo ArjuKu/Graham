@@ -10,13 +10,17 @@ As a beginner in programming and an aspiring professional, I noticed that high-q
 
 If you're a finance professional or a programmer with suggestions on model corrections, code optimizations, or fine-tuning — I'd love to hear from you.
 
+<img width="1214" height="583" alt="Image" src="https://github.com/user-attachments/assets/64d7e810-6195-47d9-bf22-c34743a373b4" />
+
 ## Features
 
 - **DCF Valuation** — 2-stage WACC-based Discounted Cash Flow model with configurable assumptions
+<img width="1137" height="494" alt="Image" src="https://github.com/user-attachments/assets/33738f24-59d3-4450-99a9-9a35db558cab" />
 - **P/E Ratio Analysis** — Company P/E vs S&P 500 benchmark with valuation scoring
 - **Sensitivity Matrix** — 3x3 grid showing how IV changes across WACC and Growth variations
 - **Reverse DCF** — Solves for the implied FCF growth rate the market is pricing in
 - **News Sentiment** — AI-powered sentiment analysis using Gemini 2.5 Flash Lite
+<img width="1203" height="653" alt="Image" src="https://github.com/user-attachments/assets/1bbbe9b3-6fb5-4cdc-bd5e-04a3f36aecd9" />
 - **Analyst Price Targets** — Real-time analyst targets via Google Search Grounding
 - **Historical Financials** — 5-year income statement, balance sheet, and cash flow data
 - **Ownership Data** — Institutional holders and insider transaction details
