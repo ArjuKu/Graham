@@ -1,0 +1,38 @@
+# ─────────────────────────────────────────────────────────────────
+# GRAHAM CONFIG FILE
+# Copy this file to config.yaml and fill in your own API key.
+# DO NOT commit config.yaml — it contains your private API key.
+# ─────────────────────────────────────────────────────────────────
+
+# ─── LLM (Google Gemini 2.5 Flash Lite) ────────────────────────
+llm:
+  api_key: "YOUR_GEMINI_API_KEY"
+  model: "gemini-2.5-flash-lite"
+  base_url: "https://generativelanguage.googleapis.com/v1beta/models"
+  max_tokens: 2048
+  temperature: 0.2
+
+# ─── System Rate Limits ─────────────────────────────────────────
+rate_limits:
+  yfinance_sleep_min: 1.0
+  yfinance_sleep_max: 3.0
+  yfinance_cache_ttl_minutes: 30
+  yfinance_max_retries: 3
+  news_max_articles: 8
+  gemini_rpm_limit: 8
+  gemini_tpm_limit: 200000
+  gemini_rpd_limit: 200
+
+# ─── DCF + WACC Assumptions ─────────────────────────────────────
+dcf:
+  projection_years: 5
+  terminal_growth_rate: 0.025
+  margin_of_safety: 0.25
+  risk_free_rate: 0.043
+  equity_risk_premium: 0.055
+  beta_fallback: 1.0
+  credit_spread: 0.015
+  tax_rate: 0.21
+  fcf_growth_rate_override: null
+  fcf_growth_cap: 0.30
+  fcf_growth_floor: -0.10
